@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+  background: aqua;
+  min-height: 140vh;
+}
+
+.top {
+  padding: 20px;
+}
+.top h1 {
+  font-size: 80px;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+li a {
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* li a:hover {
+  color: aqua;
+  background-color: #fff;
+} */
+
+.bottom {
+  position: absolute;
+  width: 750px;
+  height: 444px;
+  top: 290px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.bottom svg {
+  position: absolute;
+  width: 750px;
+  height: 444px;
+  top: 0;
+  left: -7px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.section-blue,
+.section-red,
+.section-yellow,
+.section-pink,
+.section-green {
+  display: none;
+}
+
+.svg-1{
+  mix-blend-mode: multiply;
+}
+
+#section{
+  fill: transparent;
+}
+
+.over{
+  color: black;
+  background-color: #fff;
+}
